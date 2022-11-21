@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_assignment_app/main.dart';
-import 'package:flutter_assignment_app/drawer.dart';
-import 'package:flutter_assignment_app/budget_form.dart';
-import 'package:flutter_assignment_app/budget_class.dart';
+import 'package:flutter_assignment_app/page/drawer.dart';
+import 'package:flutter_assignment_app/page/budget_form.dart';
+import 'package:flutter_assignment_app/model/budget_class.dart';
 
 class DataBudget extends StatefulWidget {
   var myBudget;

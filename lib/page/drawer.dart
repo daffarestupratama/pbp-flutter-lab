@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_assignment_app/main.dart';
-import 'package:flutter_assignment_app/budget_form.dart';
-import 'package:flutter_assignment_app/budget_data.dart';
+import 'package:flutter_assignment_app/page/budget_form.dart';
+import 'package:flutter_assignment_app/page/budget_data.dart';
 
 class MyDrawer extends StatefulWidget {
   var theBudget;
