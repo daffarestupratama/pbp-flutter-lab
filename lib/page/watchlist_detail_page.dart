@@ -106,7 +106,7 @@ class _WatchlistDetailState extends State<WatchlistDetailPage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               width: 350,
               height: 50,
               child: FloatingActionButton(

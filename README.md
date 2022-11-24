@@ -266,3 +266,37 @@ class _DataBudgetState extends State<DataBudget> {
 ...
 ...
 ```
+
+<br> <br> <br>
+
+# Tugas 9
+
+## Apakah bisa melakukan pengambilan data JSON tanpa membuat model
+
+Tidak bisa, sebab proses pengambilan data JSON perlu langsung mengkonversinya menjadi model yang sesuai.
+
+# Widget yang dipakai
+
+- Container, untuk wrap widget-widget di dalamnya
+- FutureBuilder, untuk menampilkan data yang diambil dari API
+- CircularProgressIndicator, untuk menampilkan animasi sirkular yang menandakan bahwa proses retrieve data tengah berlangsung
+- ListView, untuk menampilkan data berupa list secara iteratif
+- RoundedRectangleBorder, untuk membuat border kotak membulat
+- Padding, untuk membuat padding widget di dalamnya
+
+# Mekanisme pengambilan data dari JSON hingga ditampilkan pada Flutter
+
+1. Membuat model Watchlist untuk menampung data yang diambil dari JSON
+2. Melakukan pengambilan data JSON dari API menggunakan method http
+3. Menyimpan/mengkonversi JSON ke dalam model Watchlist yang telah dibuat
+4. Menampilkan data watchlist dari model tersebut.
+
+# Implementasi checklist
+
+1. Membuat page baru untuk menampilkan daftar watchlist pada halaman baru.
+2. Menambahkan route page tersebut pada kelas drawer.
+3. Di dalam page daftar watchlist, dilakukan pengambilan data JSON dan mengkonversinya menjadi model Watchlist serta menampilkannya menggunakan FutureBuilder.
+4. Membuat list button untuk masing-masing watchlist.
+5. Membuat page baru untuk menampilkan detail per tontonan pada halaman baru.
+6. Menghubungkan route page detail tontonan pada button judul watchlist serta melakukan passing value objek Watchlist.
+7. Membuat tampilan detail watchlist dan tombol kembali sesuai dengan ketentuan soal.
