@@ -92,7 +92,7 @@ class _WatchlistDetailState extends State<WatchlistDetailPage> {
               children: [
                 Flexible(
                   child: Text(
-                    "${widget.movie.fields.review} the quick brow fox jumps over the lazy dog",
+                    "${widget.movie.fields.review}",
                     overflow: TextOverflow.visible,
                   ),
                 ),
