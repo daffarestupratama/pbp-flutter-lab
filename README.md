@@ -275,7 +275,7 @@ class _DataBudgetState extends State<DataBudget> {
 
 Tidak bisa, sebab proses pengambilan data JSON perlu langsung mengkonversinya menjadi model yang sesuai.
 
-# Widget yang dipakai
+## Widget yang dipakai
 
 - Container, untuk wrap widget-widget di dalamnya
 - FutureBuilder, untuk menampilkan data yang diambil dari API
@@ -284,14 +284,14 @@ Tidak bisa, sebab proses pengambilan data JSON perlu langsung mengkonversinya me
 - RoundedRectangleBorder, untuk membuat border kotak membulat
 - Padding, untuk membuat padding widget di dalamnya
 
-# Mekanisme pengambilan data dari JSON hingga ditampilkan pada Flutter
+## Mekanisme pengambilan data dari JSON hingga ditampilkan pada Flutter
 
 1. Membuat model Watchlist untuk menampung data yang diambil dari JSON
 2. Melakukan pengambilan data JSON dari API menggunakan method http
 3. Menyimpan/mengkonversi JSON ke dalam model Watchlist yang telah dibuat
 4. Menampilkan data watchlist dari model tersebut.
 
-# Implementasi checklist
+## Implementasi checklist
 
 1. Membuat page baru untuk menampilkan daftar watchlist pada halaman baru.
 2. Menambahkan route page tersebut pada kelas drawer.
