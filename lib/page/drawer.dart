@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_assignment_app/main.dart';
 import 'package:flutter_assignment_app/page/budget_form.dart';
 import 'package:flutter_assignment_app/page/budget_data.dart';
+import 'package:flutter_assignment_app/page/mywatchlist_page.dart';
 
 class MyDrawer extends StatefulWidget {
   var theBudget;
@@ -42,6 +43,15 @@ class _MyDrawerState extends State<MyDrawer> {
                       builder: (context) => DataBudget(
                             myBudget: widget.theBudget,
                           )));
+            },
+          ),
+          ListTile(
+            title: const Text("My Watch List"),
+            onTap: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MyWatchListPage()));
             },
           ),
         ],
